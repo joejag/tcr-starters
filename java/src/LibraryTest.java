@@ -8,4 +8,11 @@ public class LibraryTest {
 
         assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
     }
+
+    @Test public void testSomeLibraryMethod2() {
+        Library classUnderTest = new Library();
+        classUnderTest.someLibraryMethod22();
+
+        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+    }
 }
