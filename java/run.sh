@@ -7,4 +7,4 @@ cd $DIR
 mkdir -p build
 rm -rf build/*.class
 javac -cp lib/hamcrest-all-1.3.jar:lib/junit-4.13-beta-2.jar src/*.java -d build
-java -cp build:lib/hamcrest-all-1.3.jar:lib/junit-4.13-beta-2.jar org.junit.runner.JUnitCore LibraryTest
+java -cp build:lib/hamcrest-all-1.3.jar:lib/junit-4.13-beta-2.jar org.junit.runner.JUnitCore Library
