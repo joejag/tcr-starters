@@ -1,16 +1,15 @@
-import org.junit.Test;
-import static org.junit.Assert.*;
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class Library {
     public boolean someLibraryMethod() {
         return true;
     }
+}
 
-    public class Library2Test {
+class LibraryTest {
     @Test public void testSomeLibraryMethod() {
         Library classUnderTest = new Library();
-
-        assertTrue("someLibraryMethod should return 'true'", classUnderTest.someLibraryMethod());
+        assertEquals(true, classUnderTest.someLibraryMethod());
     }
-}
 }

@@ -6,5 +6,7 @@ cd $DIR
 
 mkdir -p build
 rm -rf build/*.class
-javac -cp lib/hamcrest-all-1.3.jar:lib/junit-4.13-beta-2.jar src/*.java -d build
-java -cp build:lib/hamcrest-all-1.3.jar:lib/junit-4.13-beta-2.jar org.junit.runner.JUnitCore Library
+javac -cp lib/junit-platform-console-standalone-1.4.0.jar src/tcr/*.java -d build
+# java -cp build:lib/hamcrest-all-1.3.jar:lib/junit-4.13-beta-2.jar org.junit.runner.JUnitCore Library.Library
+java -jar lib/junit-platform-console-standalone-1.4.0.jar --class-path build --scan-class-path --disable-banner --details=none
+echo "All tests passed!"
