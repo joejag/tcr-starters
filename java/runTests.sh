@@ -6,6 +6,6 @@ cd $DIR
 
 rm -rf build/
 mkdir -p build
-javac -cp lib/junit-platform-console-standalone-1.4.0.jar $(find ./src/* | grep .java) -d build
+javac -cp lib/junit-platform-console-standalone-1.4.0.jar $(find ./src/* | grep .java$) -d build
 java -jar lib/junit-platform-console-standalone-1.4.0.jar --class-path build --scan-class-path --disable-banner --details=none
 echo "All tests passed!"
