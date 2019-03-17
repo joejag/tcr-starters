@@ -15,7 +15,7 @@
   <!--</snippetPackages>-->
 
   <ItemGroup>
-    <ProjectReference Include="..\PrimeService\PrimeService.csproj" />
+    <ProjectReference Include="..\Service\Service.csproj" />
   </ItemGroup>
 
 </Project>
