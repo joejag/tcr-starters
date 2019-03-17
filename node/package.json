@@ -6,13 +6,17 @@
     "test": "jest"
   },
   "jest": {
-    "testMatch": ["**/*.js"]
+    "testMatch": [
+      "**/*.js"
+    ]
   },
   "babel": {
     "presets": [
-        "env"
+      "env"
     ],
-    "plugins": ["transform-object-rest-spread"]
+    "plugins": [
+      "transform-object-rest-spread"
+    ]
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
