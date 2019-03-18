@@ -13,7 +13,7 @@ If you want to DIY it you can use the following command in your shell
 
 ```
 while true; do
-    sleep 3
+    inotifywait -r -e modify . 2>/dev/null|| sleep 3
     ./runTests.sh && git commit -am working || git reset --hard
 done
 ```
