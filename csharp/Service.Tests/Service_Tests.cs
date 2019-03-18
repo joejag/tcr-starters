@@ -4,10 +4,10 @@ using Services;
 namespace UnitTests.Services
 {
     [TestFixture]
-    public class Service_IsPrimeShould
+    public class Service_CanMultiply
     {
         [Test]
-        public void ReturnFalseGivenValueOf1()
+        public void CanMultiplyNumbers()
         {
             Assert.AreEqual(6, new Service().Multiply(2,3));
         }
