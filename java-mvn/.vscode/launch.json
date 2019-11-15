@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AppMain",
+            "request": "launch",
+            "mainClass": "globalcoderetreat20.AppMain",
+            "projectName": "gameoflife"
+        }
+    ]
+}
