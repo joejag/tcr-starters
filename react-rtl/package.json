@@ -10,7 +10,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "CI=true react-scripts test --colors",
+    "test": "react-scripts test",
+    "test:once": "CI=true react-scripts test --colors",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
