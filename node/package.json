@@ -7,25 +7,16 @@
   },
   "jest": {
     "testMatch": [
-      "**/*.js"
+      "**/*.spec.js"
     ]
   },
   "babel": {
-    "presets": [
-      "@babel/preset-env"
-    ],
-    "plugins": [
-      "transform-object-rest-spread"
-    ]
+    "presets": [ "@babel/preset-env" ]
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
-    "babel-cli": "^6.26.0",
     "babel-jest": "^24.9.0",
-    "babel-plugin-transform-object-rest-spread": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-register": "^6.26.0",
     "eslint": "^6.7.1",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.18.2",
